@@ -260,7 +260,7 @@ $(window).on('amplitude_loaded', function() {
 
 <footer class="site-footer">
     <div class="container">
-        Vyond™ is a trademark of © 2021 GoAnimate For Schools Remastered. <a href="https://www.vyond.com/terms">Terms of Service</a> | <a href="https://www.vyond.com/privacy">Privacy Policy</a> | <a href="https://www.vyond.com/cookies">Cookies Policy</a>
+        Vyond™ is a trademark of © 2021 GoAnimate Inc. <a href="https://www.vyond.com/terms">Terms of Service</a> | <a href="https://www.vyond.com/privacy">Privacy Policy</a> | <a href="https://www.vyond.com/cookies">Cookies Policy</a>
     </div>
 </footer>
 
