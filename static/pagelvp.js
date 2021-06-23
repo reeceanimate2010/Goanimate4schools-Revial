@@ -949,7 +949,7 @@ Copyright (C) Joseph Animate 2021, 2021.</p>
 
 <footer class="site-footer">
     <div class="container">
-        © 2021 Vyond Remastered.
+        © 2021 Vyond.
     </div>
 
 </footer>
