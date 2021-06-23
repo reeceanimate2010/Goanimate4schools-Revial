@@ -369,8 +369,8 @@ if (self !== top) {
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                   </button>
-                  <a class="navbar-brand" href="https://ga.vyond.com/yourvideos" title="Vyond">
-                      <img alt="Vyond" src="/html/logo.png">
+                  <a class="navbar-brand" href="https://vyond2019.herokuapp.com/yourvideos" title="Vyond">
+                      <img alt="Vyond" src="https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/img/vyond/vyond_logo_legacy.png">
                   </a>
             </div>
             <div class="collapse navbar-collapse navbar-ex1-collapse">
