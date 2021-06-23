@@ -197,7 +197,7 @@ jQuery('#ccbrowser-container').flash({
 
 <footer class="site-footer">
     <div class="container">
-        © 2021 Vyond Remastered.
+        © 2021 Vyond.
     </div>
 </footer>
 
