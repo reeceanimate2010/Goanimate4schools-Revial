@@ -99,7 +99,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <span class="icon-bar"></span>
                   </button>
                   <a class="navbar-brand" href="/yourvideos" title="">
-                      <img alt="Vyond Remastered" src="/html/logo.png">
+                      <img alt="Vyond" src="https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/img/vyond/vyond_logo_legacy.png">
                   </a>
             </div>
 
@@ -127,8 +127,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     });
 </script>
                     <li>
-                        <a class="hidden-sm hidden-md hidden-lg" href="https://vyondremastered1.herokuapp.com/videomaker">Make a Video</a>
-                        <span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="https://vyondremastered1.herokuapp.com/videomaker">Make a Video</a></span>
+                        <a class="hidden-sm hidden-md hidden-lg" href="https://vyond2019.herokuapp.com/videomaker">Make a Video</a>
+                        <span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="https://vyond2019.herokuapp.com/videomaker">Make a Video</a></span>
                     </li>
 <li class="dropdown">
     <a class="dropdown-toggle" href="/account" data-toggle="dropdown">
