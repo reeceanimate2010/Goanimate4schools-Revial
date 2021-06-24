@@ -32,7 +32,8 @@ module.exports = function (req, res, url) {
 			params = {
 				flashvars: {
 					'apiserver': '/', 'm_mode': 'school', 'bs': 'adam', 'isLogin': 'Y', 'isEmbed': '0', 'ctc': 'go', 'tlang': 'en_US',
-					'storePath': process.env.STORE_URL + '/<store>', 'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'appCode': 'go',
+					'storePath': process.env.STORE_URL + '/<store>', 'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 
+					'appCode': 'go',
 					'page': '', 'siteId': 'go', 'userId': '00EDZP3Cu0aw', 'themeId': 'family', 'ut': 30,
 
 				},
