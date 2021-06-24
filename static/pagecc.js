@@ -217,12 +217,8 @@ function goSubscribe()
     window.open(url, 'goSubscribe');
 }
 
-function characterSaved()
-{
-    SetCookie('cc_saved', '1', 1, '/');
-    window.location = 'https://vyondremastered1.herokuapp.com/yourvideos';
-}
 </script>
+${stuff.pages[url.pathname] || ""}
     </div>
 
 <script>
