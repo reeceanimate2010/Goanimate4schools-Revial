@@ -191,8 +191,7 @@ jQuery('#ccbrowser-container').flash({
 
     hasVersion: "10.3",
 
-    flashvars: ${JSON.stringify(params.flashvars)}
-
+    flashvars: ${JSON.stringify(params.flashvars)}});
 </script>
 </div>
 
