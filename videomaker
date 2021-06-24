@@ -194,27 +194,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="theme">
             <div class="theme__top">
                 <div class="visible-xs">
-                    <img class="img-responsive center-block" src="/html/img/bf.png">
+                    <img class="img-responsive center-block" src="https://josephcrosmanplays532.github.io/img/Chibi_Peepz.jpg">
                 </div>
                 <div class="hidden-xs">
-                    <video class="theme__top__video" poster="/html/img/bf.png" loop="" preload="none">
-                        <source src="/html/vids/bf.mp4" type="video/mp4">
+                    <video class="theme__top__video" poster="https://josephcrosmanplays532.github.io/img/Chibi_Peepz.jpg" loop="" preload="none">
 
-                        <img class="img-responsive center-block" src="/html/img/bf.png">
+                        <img class="img-responsive center-block" src="https://josephcrosmanplays532.github.io/img/Chibi_Peepz.jpg">
                     </video>
                 </div>
             </div>
             <div class="theme__content">
-                <h4 class="theme__content__title">Business Friendly</h4>
+                <h4 class="theme__content__title">Chibi Peepz</h4>
 
                 <div class="theme__content__description">
-                    Traditional 2D animation featuring hundreds of vibrant templates, backdrops, characters and actions covering a wide range of industries, occupations, activities and business concepts.                </div>
+                    Great Theme                </div>
 
                 <div class="theme__content__cta hidden-mobile">
-                        <a class="btn btn-orange" href="/videomaker/full/?tray=business">Select</a>
+                        <a class="btn btn-orange" href="/videomaker/full/?tray=animal">Select</a>
     
                     <br>
-                        <a class="theme__cc-link" href="/charactercreator/?themeId=business">
+                        <a class="theme__cc-link" href="/charactercreator/?themeId=animal">
                         Character Creator                    </a>
                     </div>
             </div>
