@@ -209,7 +209,7 @@ jQuery('#char_creator_client').flash({
 
    hasVersion: "10.3",
 
-   flashvars: ${JSON.stringify(params.flashvars)}
+   flashvars: ${JSON.stringify(params.flashvars)}});
 
 function goSubscribe()
 {
