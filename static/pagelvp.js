@@ -109,8 +109,8 @@ Copyright (C) Joseph Animate 2021, 2021.">
 <link rel="alternate" href="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/GoAnimate/WhatsNew" type="application/rss+xml" title="GoAnimate - Recently Released Content">
 <link rel="alternate" href="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/GoAnimate/MostWatched" type="application/rss+xml" title="GoAnimate - Most Watched">
 
-<link href="https://josephcrosmanplays532.github.io/fonts/1/sailec.css" rel="stylesheet" type="text/css">
-<link href="https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/css/common_combined.css.gz.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/font.css" rel="stylesheet" type="text/css">
+<link href="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/common_combined.css" rel="stylesheet" type="text/css">
 
 <link href="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/upsell_modals.css" rel="stylesheet" type="text/css">
 <link href="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/watermark.css" rel="stylesheet" type="text/css">
@@ -370,7 +370,7 @@ if (self !== top) {
                     <span class="icon-bar"></span>
                   </button>
                   <a class="navbar-brand" href="https://vyond2019.herokuapp.com/yourvideos" title="Vyond">
-                      <img alt="Vyond" src="https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/img/vyond/vyond_logo_legacy.png">
+                      <img alt="Vyond" src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/vyond_logo_legacy_goanimate.png">
                   </a>
             </div>
             <div class="collapse navbar-collapse navbar-ex1-collapse">
