@@ -33,10 +33,18 @@ module.exports = function (req, res, url) {
 			};
 			params = {
 				flashvars: {
-					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>', 'isEmbed': 1, 'ctc': 'go',
-					'ut': 60, 'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': 'go', 'lid': 13, 'isLogin': 'Y', 'retut': 1,
-					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'themeId': 'business', 'tlang': 'en_US',
-					'presaveId': presave, 'goteam_draft_only': 1, 'isWide': 0, 'nextUrl': '/yourvideos',
+					'movieId': '', 'loadas': 0, 'presaveId': presave, 'asId': '', 'originalId': '', 'apiserver': '/', 
+					'storePath': process.env.STORE_URL + '/<store>', 'clientThemePath': process.env.CLIENT_URL + '/<client_theme>',
+					'animationPath': process.env.SWF_URL + '/', 'userId': '0cf4CMw1ZNCk', 'username': 'bakeryb40488', 
+					'uemail': 'bakeryb40488@gmail.com', 'numContact': '0', 'ut': 23, 've': false, 'isEmbed': 0, 
+					'nextUrl': '/go/savedMovie/0/1/?movieId=<movieId>', 'bgload': process.env.SWF_URL + '/go_full.swf', 'lid': '1', 
+					'ctc': 'go', 'themeColor': 'silver', 'tlang': 'en_US', 'siteId': '13', 'templateshow': 'false', 
+					'forceshow':'false', 'appCode': 'go', 'lang': 'en', 'tmcc': 4048901, 'fb_app_url': '/', 'is_published': 
+					'0', 'is_private_shared': '1', 'is_password_protected': false, 'upl': 1, 'hb': '1', 'pts': '1', 'msg_index': '', 
+					'ad': 0, 'has_asset_bg': 1, 'has_asset_char': 0, 'initcb': 'studioLoaded', 'retut': 0, 'featured_categories': null,
+					's3base': 'https://s3.amazonaws.com/fs.goanimate.com/,https://assets.vyond.com/', 'st': '', 'uisa': 0, 
+					'u_info': 'OjI6elg5SnZCOUEyTHZiY2lhZGRXTm9Nd0ljVWhNbEpGaXJFdkpEdkltdEp6RWhrQ0VIbXZIVTBjRTlhUGZKMjJoVHVTUE5vZk1XYnFtSE1vZG5TeldyQVJNcDFmUFB2NDVtR0FTSlZZ',
+					'tm': 'FIN', 'tray': 'custom', 'isWide': 1, 'newusr': 1, 'goteam_draft_only': 0,
 				},
 				allowScriptAccess: 'always',
 			};
@@ -52,8 +60,7 @@ module.exports = function (req, res, url) {
 	`<html><head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<link rel="dns-prefetch" href="https://d2bm7x1jqouzel.cloudfront.net">
-<link rel="dns-prefetch" href="//d3v4eglovri8yt.cloudfront.net">
+<link rel="dns-prefetch" href="https://josephcrosmanplays532.github.io">
 
 <script>document.title='${title}'</script>
 
