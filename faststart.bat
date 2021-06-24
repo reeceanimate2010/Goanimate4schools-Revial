@@ -1,6 +1,6 @@
 :: Important stuff
 @echo off && cls
-title Vyond Remastered
+title Vyond 2019
 
 ::::::::::::::::::::
 :: Initialization ::
@@ -10,13 +10,13 @@ title Vyond Remastered
 TASKKILL /IM node.exe /F 2>nul
 cls
 
-::::::::::::::::::::::::::::
-:: Start Vyond Remastered ::
-::::::::::::::::::::::::::::
+::::::::::::::::::::::
+:: Start Vyond 2019 ::
+::::::::::::::::::::::
 
 :: Check for installation
 if exist notinstalled (
-	echo Vyond Remastered is not installed! Installing...
+	echo Vyond 2019 is not installed! Installing...
 	call npm install
 	ren "notinstalled" "installed"
 	cls
@@ -27,6 +27,6 @@ if exist notinstalled (
 
 :: Run npm start
 :start
-echo Vyond Remastered is now starting...
+echo Vyond 2019 is now starting...
 echo Please navigate to http://localhost or http://localhost:80 on your browser.
 npm start
