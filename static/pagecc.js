@@ -24,17 +24,17 @@ module.exports = function (req, res, url) {
 	var attrs, params, title;
 	switch (url.pathname) {
 		case '/charactercreator/new_char/': {
-			title = 'Make a Character - Vyond Remastered';
+			title = 'The Character Creator from Vyond - Make a Character Online!';
 			attrs = {	
 				data: process.env.SWF_URL + '/cc.swf', // data: 'cc.swf',
 				type: 'application/x-shockwave-flash', id: 'char_creator', width: '960', height: '600',
 			};
 			params = {
 				flashvars: {
-					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>',
-					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'original_asset_id': query['id'] || null,
-					'themeId': 'business', 'ut': 60, 'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': 'go',
-					'm_mode': 'school', 'isLogin': 'Y', 'isEmbed': 1, 'ctc': 'go', 'tlang': 'en_US',
+					'apiserver': '/', 'm_mode': 'school', 'bs': 'adam', 'isLogin': 'Y', 'isEmbed': '0', 'ctc': 'go', 'tlang': 'en_US',
+					'storePath': process.env.STORE_URL + '/<store>', 'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'appCode': 'go',
+					'page': '', 'siteId': 'go', 'userId': '00EDZP3Cu0aw', 'themeId': 'family', 'ut': 30,
+
 				},
 				allowScriptAccess: 'always',
 				movie: process.env.SWF_URL + '/cc.swf', // 'http://localhost/cc.swf'
@@ -217,8 +217,12 @@ function goSubscribe()
     window.open(url, 'goSubscribe');
 }
 
+function characterSaved()
+{
+    SetCookie('cc_saved', '1', 1, '/');
+    window.location = 'https://vyond2019.herokuapp.com/yourvideos';
+}
 </script>
-${stuff.pages[url.pathname] || ""}
     </div>
 
 <script>
