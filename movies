@@ -233,14 +233,7 @@ _wq.push({ id: 'n7326kf0b9', onReady: function(video) {
         <div class="col-md-8 col-md-pull-4">
             <input type="hidden" name="ct" value="Qyeie+pwtXSZbKSaIcP1NQfIMcSROG8unA0YjztpNNqS+zYMKemmW6gOPcArE7Vg8vtXD3zhpArh8ggfqo00VLx16eR8P58cKp5nh58COXyyP132NVQNALlf7ZJo+mgSJ1BWwEa+UL6dpvV4g_WKrrok4Q0C4ex1yWYjK7faA+31Hh00NWT+AtuRw97PsbjKiQgNg9QpYHwTalNmVZd1AG2yF2Xwp7WBL6PXzDQYs=" />
 
-<div class="grid video-listing-grid hide-folders" id="video-listing-grid">
-    <div class="video-list-header">
-        <div class="video-status-filter pull-right">
-            Show:            <a class="link-secondary active" data-status="">All</a>
-        </div>
-    </div>
-
-    
+<div class="grid video-listing-grid hide-folders" id="video-listing-grid">    
 <table class="table table-hover table-generic">
             
 		<thead>
