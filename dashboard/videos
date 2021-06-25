@@ -1,4 +1,4 @@
-<!-- your videos from the normal or dark retro video maker are getting sinked here. so you can edit them using this cool light retro video maker if you want. -->
+<!-- your videos from the normal or light retro video maker are getting sinked here. so you can edit them using this cool dark retro video maker if you want. -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -457,82 +457,75 @@ var folderCounts = 0;
 
 <!-- FOOTER -->
 
-<footer class="site-footer">
+<div class="site-footer">
     <div class="container">
-        <div class="row site-footer-nav">
+        <div class="site-footer-nav row">
             <div class="col-sm-3">
                 <div class="site-footer-nav-col">
-                    <h5>About GoAnimate</h5>
+                    <h4><span>About GoAnimate</span></h4>
                     <ul class="list-unstyled">
-                        <li><a href="https://josephcrosmanplays532.github.io/about">Who We Are</a></li>
-                        <li><a href="https://josephcrosmanplays532.github.io/contactus">Contact Us</a></li>
-                        <li><a href="https://josephcrosmanplays532.github.io/video-maker-tips">Blog</a></li>
-                        <li><a href="https://press.goanimate.com/">Press</a></li>
+                        <li><a href="http://web.archive.org/web/20180307222818/https://goanimate.com/about">Who we are</a></li>
+                        <li><a href="http://web.archive.org/web/20180307222818/https://resources.goanimate.com/careers/">Careers</a></li>
+                        <li><a href="http://web.archive.org/web/20180307222818/https://goanimate.com/contactus">Contact Us</a></li>
+                        <li><a href="http://web.archive.org/web/20180307222818/https://blog.goanimate.com/">Blog</a></li>
+                        <li><a href="http://web.archive.org/web/20180307222818/https://press.goanimate.com/">Press</a></li>
                     </ul>
                 </div>
             </div>
-
             <div class="col-sm-3">
                 <div class="site-footer-nav-col">
-                    <h5>GoAnimate Solutions</h5>
+                    <h4><span>GoAnimate Solutions</span></h4>
                     <ul class="list-unstyled">
-                        <li><a href="https://goanimateforschools.github.io/" target="_blank">GoAnimate for Schools</a></li>
-                        <li class="hidden-xs">&nbsp;</li>
-                        <li class="hidden-xs">&nbsp;</li>
-                        <li class="hidden-xs">&nbsp;</li>
+                        <li><a href="http://web.archive.org/web/20180307222818/https://goanimate.com/business/videoplans?hook=footer_button.site">Plans and Pricing</a></li>
+                        <li><a href="http://web.archive.org/web/20180307222818/https://goanimate.com/business/videoplans/federal?hook=footer_button.site">Plans for Federal Agencies</a></li>
+                        <li><a href="http://web.archive.org/web/20180307222818/https://goanimate4schools.com/" target="_blank">GoAnimate for Schools</a></li>
                     </ul>
                 </div>
             </div>
-
             <div class="col-sm-3">
                 <div class="site-footer-nav-col">
-                    <h5>Usage Guidelines</h5>
+                    <h4><span>Usage Guidelines</span></h4>
                     <ul class="list-unstyled">
-                        <li><a href="/termsofuse">Terms of Service</a></li>
-                        <li><a href="/privacy">Privacy Policy</a></li>
-                        <li class="hidden-xs">&nbsp;</li>
-                        <li class="hidden-xs">&nbsp;</li>
+                        <li><a href="http://web.archive.org/web/20180307222818/https://goanimate.com/termsofuse">Terms of Service</a></li>
+                        <li><a href="http://web.archive.org/web/20180307222818/https://goanimate.com/privacy">Privacy Policy</a></li>
+                        <li><a href="//web.archive.org/web/20180307222818/https://support.goanimate.com/hc/en-us/articles/202408574" target="_blank">Cancellation Policy</a></li>
                     </ul>
                 </div>
             </div>
-
             <div class="col-sm-3">
                 <div class="site-footer-nav-col">
-                    <h5>Getting Help</h5>
+                    <h4>Getting Help</h4>
                     <ul class="list-unstyled">
-                        <li><a href="https://blog.goanimate4schools.com/">Educator Experiences</a></li>
-                        <li><a href="https://goanimate4schools.zendesk.com/hc/en-us">Help Center</a></li>
-                        <li class="hidden-xs">&nbsp;</li>
-                        <li class="hidden-xs">&nbsp;</li>
+                        <li><a href="http://web.archive.org/web/20180307222818/https://resources.goanimate.com/">Resources</a></li>
+                        <li><a href="http://web.archive.org/web/20180307222818/https://support.goanimate.com/">Help Center</a></li>
                     </ul>
                 </div>
             </div>
         </div>
         <hr>
-
-        <div class="row site-footer-copyright">
+        <div class="row">
             <div class="col-sm-6">
                 <div class="site-footer-socials-container">
                     Follow us on:
-                    <ul class="site-footer-socials clearfix">
-                        <li><a class="facebook" href="https://www.facebook.com/GoAnimateInc">Facebook</a></li>
-                        <li><a class="twitter" href="https://twitter.com/Go4Schools">Twitter</a></li>
-                        <li><a class="linkedin" href="https://www.linkedin.com/company/goanimate">Linked In</a></li>
-                        <li><a class="youtube" href="https://www.youtube.com/user/GoAnimate">YouTube</a></li>
+                    <ul class="site-footer-socials">
+                        <li><a class="glyph-social glyph-facebook" href="http://web.archive.org/web/20180307222818/https://www.facebook.com/GoAnimateInc"><span class="sr-only">Facebook</span></a></li>
+                        <li><a class="glyph-social glyph-twitter" href="http://web.archive.org/web/20180307222818/https://twitter.com/GoAnimate"><span class="sr-only">Twitter</span></a></li>
+                        <li><a class="glyph-social glyph-linked-in" href="http://web.archive.org/web/20180307222818/https://www.linkedin.com/company/goanimate"><span class="sr-only">LinkedIn</span></a></li>
+                        <li><a class="glyph-social glyph-google-plus" href="http://web.archive.org/web/20180307222818/https://plus.google.com/+goanimate"><span class="sr-only">Google+</span></a></li>
+                        <li><a class="glyph-social glyph-youtube" href="http://web.archive.org/web/20180307222818/https://www.youtube.com/user/GoAnimate"><span class="sr-only">YouTube</span></a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-sm-6">
-                <div class="pull-right">
-                    <img src="https://josephcrosmanplays532.github.io/static/642cd772aad8e952/school/img/site/logo_amazon.png" alt="AWS Partner Network">
+                <div class="site-footer-copyright">
+                    <img src="http://web.archive.org/web/20180307222818im_/https://d3v4eglovri8yt.cloudfront.net/static/f789d2b2551c1fb6/go/img/footer/logo_amazon.png" alt="AWS Partner Network">
                     &nbsp;&nbsp;&nbsp;
-                    GoAnimate © 2018
+                    <div class="ga-copy">GoAnimate © 2021</div>
                 </div>
             </div>
         </div>
-
     </div>
-</footer>
+</div>
 
 
 <div id="studio_container" style="display: none;">
