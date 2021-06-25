@@ -34,17 +34,47 @@ module.exports = function (req, res, url) {
 			params = {
 				flashvars: {
 					'apiserver': '/', 'storePath': 'https://josephcrosmanplays532.github.io/store/50/<store>', 
-          'isEmbed': 1, 'ctc': 'go', 'ut': 50, 'bs': 'default', 
-          'appCode': 'go', 'page': '', 'siteId': 'go', 'lid': 13, 'isLogin': 'Y', 'retut': 1, 
-          'clientThemePath': 'https://josephcrosmanplays532.github.io/static/ad44370a650793d9/<client_theme>', 
-          'themeId': 'business', 'tray': 'retro', 'tlang': 'en_US',
-          'presaveId': presave, 'goteam_draft_only': 1, 'isWide': 1, 'collab': 0, 'nextUrl': '/html/list.html',
+                                        'isEmbed': 1, 'ctc': 'go', 'ut': 50, 'bs': 'default', 
+                                        'appCode': 'go', 'page': '', 'siteId': 'go', 'lid': 13, 'isLogin': 'Y', 'retut': 1, 
+                                        'clientThemePath': 'https://josephcrosmanplays532.github.io/static/ad44370a650793d9/<client_theme>', 
+                                        'themeId': 'business', 'tray': 'retro', 'tlang': 'en_US',
+                                        'presaveId': presave, 'goteam_draft_only': 1, 'isWide': 1, 'collab': 0, 'nextUrl': '/html/list.html',
 				},
 				allowScriptAccess: 'always',
 			};
 			sessions.set({ movieId: presave }, req);
 			break;
 		}
+			
+		case '/go_full': {
+			let presave = query.movieId && query.movieId.startsWith('m') ? query.movieId :
+				`m-${fUtil[query.noAutosave ? 'getNextFileId' : 'fillNextFileId']('movie-', '.xml')}`;
+			title = 'GoAnimate Retro 2008 In Light Mode and GoAnimators - Create Video - GoAnimate Retro 2008 In Light Mode';
+			attrs = { 
+				data: process.env.SWF_URL + '/go_full.swf',
+				type: 'application/x-shockwave-flash', width: '100%', height: '100%',
+			};
+			params = {
+				flashvars: {
+					'movieId': '', 'loadas': 0, 'asId': '', 'originalId': '', 'presaveId': presave, 'apiserver': '/',
+					'storePath': 'https://josephcrosmanplays532.github.io/store/50/<store>', 
+					'clientThemePath': 'https://josephcrosmanplays532.github.io/static/477/<client_theme>', 
+					'animationPath': 'https://josephcrosmanplays532.github.io/animationretro/18/', 'userId': '0DyHqK6Yj9dM', 
+					'username': 'good bois', 'uemail': 'crazy suitcase', 'numContact': '0', 'ut': 23, 've': false, 'isEmbed': 0, 
+					'nextUrl': '/movie/0/1/?movieId=<movieId>', 'bgload': 'https://josephcrosmanplays532.github.io/animationretro/18/go_full.swf',
+					'lid': '13', 'ctc': 'go', 'themeColor': 'silver', 'tlang': 'en_US', 'siteId': '13', 'templateshow': 'false', 
+					'forceshow': 'false', 'appCode': 'go', 'lang': 'en', 'tmcc': '192', 'fb_app_url': '/', 'is_published': '1',
+					'is_private_shared': '0', 'upl': 1, 'role': 'student', 'hb': '1', 'pts': '0', 'msg_index': '', 'ad': 0, 'has_asset_bg': 0,
+					'has_asset_char': 0, 'initcb': 'studioLoaded', 'retut': 0," 's3base': 'https://s3.amazonaws.com/fs.goanimate.com/', 
+					'st': '', 'uisa': 0, 
+					'u_info_school': 'OjI6bVFMTXBnN1pPRTdkeHJLamtiT1ZUZ2RoOXhHVmg5N2loU3VLZTJEYlp4WWxqcTY3aHhZbG1DVjJhUldkc2xxNVZWNVgyV2VOeTNVVlpPUWRHbkJlUkNyMTBSM2QyT2kxNmxHc2NsbEVpVXFnZklqMTBsNHVjPQ==',
+					'tm': 'FIN', 'tray': 'retro', 'uplp': 0, 'isWide': 1,
+				},
+				allowScriptAccess: 'always',
+			};
+			sessions.set({ movieId: presave }, req);
+			break;
+		}	
 		default:
 			return;
 	}
