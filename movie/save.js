@@ -6,7 +6,7 @@ module.exports = function (req, res, url) {
 	loadPost(req, res).then(data => {
 
 		const trigAutosave = data.is_triggered_by_autosave;
-		if (trigAutosave && (!data.movieId || data.noAutosave))
+		if (trigAutosave && (!data.movieId || data.Autosave))
 			return res.end('0');
 
 		var body = Buffer.from(data.body_zip, 'base64');
