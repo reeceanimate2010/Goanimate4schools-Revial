@@ -106,55 +106,49 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="page-container">
 
 
-<div class="site-header">
-    <div class="navbar site-nav" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-            <a class="navbar-brand" href="/" title="Vyond">
-                <img alt="Vyond" src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/vyond_logo_legacy_goanimate.png">
+<nav class="navbar site-nav" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            <a class="navbar-brand" href="/dashboard/videos" title="Vyond">
+                <img src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/vyond_logo_legacy_goanimate.png" alt="Vyond">
             </a>
         </div>
-
         <ul class="nav site-nav-alert-nav hidden-xs">
             <li>
-                <a href="/notifications" title="Notifications"><span class="glyph-pro glyph-bell"></span></a>
+                <a href="/notifications" title="Notifications"><span class="glyph-pro glyph-bell"></a>
             </li>
         </ul>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
-
                 <li class="dropdown">
                     <a class="dropdown-toggle" href="#" data-toggle="dropdown">Your Account <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="/student">Dashboard</a></li>
-                        <li><a href="/movies">Your Videos</a></li>
+                        <li><a href="/dashboard/videos">Your Videos</a></li>
                         <li class="divider"></li>
                         <li><a href="/account">Account Settings</a></li>
-                        <li><a href="/profile">Your Profile</a></li>
+                        <li><a href="/profile/you">Your Profile</a></li>
                         <li class="divider"></li>
                         <li><a class="logout-link" href="/logoff">Logout</a></li>
                     </ul>
-                </li>
-                <li class="dropdown">
+                </li><li class="dropdown">
                     <a class="dropdown-toggle" href="#" data-toggle="dropdown">Explore <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="/students">Students</a></li>
                         <li><a href="/teachers">Teachers</a></li>
                         <li><a href="/videos">Videos</a></li>
-                        <li class="divider"></li>
-                        <li><a href="https://blog.goanimate4schools.com/">Educator Experiences</a></li>
                         <li><a href="/public_faq">FAQ</a></li>
                     </ul>
                 </li>
                 <li>
-                    <a class="hidden-sm hidden-md hidden-lg" href="/videomaker">Make a Video</a>
-                    <span class="site-nav-btn hidden-xs"><a class="btn btn-green" href="/videomaker">Make a Video</a></span>
+				<a class="hidden-sm hidden-md hidden-lg" href="/videomaker">Make a Video</a>
+				<span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="/videomaker">Make a Video</a></span>
                 </li>
             </ul>
         </div>
