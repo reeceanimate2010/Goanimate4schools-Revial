@@ -165,8 +165,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- END OF HEADER -->
 
-<div class='free-trial-banner'>
-    <span class='glyph-pro glyph-warning-sign'></span>
+<div class="warning">
     Vyond 2019 is in process</div>
 <script>
     (function(){
