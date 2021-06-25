@@ -106,86 +106,62 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="page-container">
 
 
-<div class="site-header">
-    <div class="navbar site-nav site-nav--legacy" role="navigation">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="/yourvideos" title="Vyond">
-                      <img alt="Vyond" src="https://josephcrosmanplays532.github.io/static/55910a7cd204c37c/go/img/vyond/vyond_logo_legacy.png">
-                  </a>
-            </div>
+<nav class="navbar site-nav" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            <a class="navbar-brand" href="/" title="Vyond">
+                <img alt="Vyond" src="https://josephcrosmanplays532.github.io/GoAnimate-2016-Video-Player-Files/vyond_logo_legacy_goanimate.png">
+            </a>
+        </div>
 
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav navbar-right">
-<li class="dropdown">
-    <a class="dropdown-toggle" href="https://support.vyond.com" data-toggle="dropdown">Help<span class="dropdown-caret"></span></a>
-    <ul class="dropdown-menu dropdown-menu-help">
+        <ul class="nav site-nav-alert-nav hidden-xs">
+            <li>
+                <a href="/messages" title="Messages"><span class="glyphicon glyphicon-envelope"></span><span class="count"></span></a>
+            </li>
+            <li>
+                <a href="/notifications" title="Notifications"><span class="glyphicon glyphicon-bell"></span><span class="count"></span></a>
+            </li>
+        </ul>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
 
-        <li>
-            <a href="#" onclick="zE.activate({hideOnClose: true});amplitudeTrackCtaHelp('quick_search');return false;">Quick Search</a>
-        </li>
-        <li>
-            <a href="https://support.vyond.com" onclick="amplitudeTrackCtaHelp('help_center');" target="_blank">Help Center</a>
-        </li>
-        <li>
-            <a href="https://josephcrosmanplays532.github.io/whatsnew" onclick="amplitudeTrackCtaHelp('whats_new');" target="_blank">What’s New</a>
-        </li>
-    </ul>
-</li>
-
-<script>
-    $('.dropdown-menu-help').click(function(e) {
-        e.stopPropagation();
-    });
-</script>
-		    <li>
-                        <a class="hidden-sm hidden-md hidden-lg" href="/videomaker">Make a Video</a>
-                        <span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="/videomaker">Make a Video</a></span>
-                    </li>
-<li class="dropdown">
-    <a class="dropdown-toggle" href="https://app.vyond.com/v2/profile" data-toggle="dropdown">
-        <span class="hidden-sm hidden-md hidden-lg">Your Account</span>
-        <div class="site-nav__profile-image">
-            <div class="badge-circle">U</div>
-        </div><span class="dropdown-caret"></span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-user">
-        <li class="dropdown-user-profile">
-            <div class="dropdown-user-profile__display-name">
-                You            </div>
-        </li>
-        <li class="divider"></li>
-        <li><a href="/profile/you.html">Profile Settings</a></li>
-        <li><a href="https://app.vyond.com/v2/users/list">Users</a></li>
-        <li><a href="https://app.vyond.com/v2/security">Security</a></li>
-        <li><a href="https://app.vyond.com/v2/subscription">Subscription</a></li>
-        <li class="divider"></li>
-        <li><a href="https://app.vyond.com/video/list" onClick="amplitudeTrackSwitchVideoMaker('Go to Vyond Studio')">Go to Vyond Studio</a></li>
-        <li class="divider"></li>
-        <li><a class="gtm-logout" href="https://ga.vyond.com/logoff">Log Out</a></li>
-    </ul>
-</li>
-
-<script>
-    $('.dropdown-menu-user').click(function(e) {
-        e.stopPropagation();
-    });
-</script>
-                </ul>
-            </div>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" href="#" data-toggle="dropdown">Your Account <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/student">Dashboard</a></li>
+                        <li><a href="/movies">Your Videos</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/account">Account Settings</a></li>
+                        <li><a href="/profile">Your Profile</a></li>
+                        <li class="divider"></li>
+                        <li><a class="logout-link" href="/logoff">Logout</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" href="#" data-toggle="dropdown">Explore <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/students">Students</a></li>
+                        <li><a href="/teachers">Teachers</a></li>
+                        <li><a href="/videos">Videos</a></li>
+                        <li class="divider"></li>
+                        <li><a href="https://blog.goanimate4schools.com/">Educator Experiences</a></li>
+                        <li><a href="/public_faq">FAQ</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="hidden-sm hidden-md hidden-lg" href="/videomaker">Make a Video</a>
+                    <span class="site-nav-btn hidden-xs"><a class="btn btn-green" href="/videomaker">Make a Video</a></span>
+                </li>
+            </ul>
+        </div>
     </div>
-</div>
-
-<script>
-    jQuery('.logout-link').click(function(){
-        amplitudeTrackEvent(AMPLITUDE_EVENT.LOGOUT, null);
-    });
-    </script>
+</nav>
 
 <!-- END OF HEADER -->
 
