@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list version="1.0">
+	<fvm_meta theme_code="" is_biz="0" />
+	<theme id="retro" name="Cartoon Classics" thumb="ann-stand.swf" />
+	<theme id="action" name="Lil' Peepz" thumb="" cc_theme_id="cc2" />
+	<theme id="custom" name="Comedy World" thumb="" cc_theme_id="family" />
+	<theme id="chibi" name="Chibi Peepz" thumb="" cc_theme_id="chibi" />
+	<theme id="common" name="Common" thumb="matchboy-stand.swf" />
+	<word>mikiko,vikiko</word>
+	<whiteword />
+	<excludeAssetIDs />
+	<points money="0" sharing="0" />
+</list>
