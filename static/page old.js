@@ -66,7 +66,7 @@ module.exports = function (req, res, url) {
 					'go', 'lang': 'en', 'tmcc': '192', 'fb_app_url': '\/', 'is_published': '1', 'is_private_shared': '0', 'upl': 1, 
 					'role': 'student', 'hb': '1', 'pts': '0', 'msg_index': '', 'ad': 0, 'has_asset_bg': 0, 'has_asset_char': 0, 
 					'initcb': 'studioLoaded', 'retut': 0, 's3base': 'https:\/\/s3.amazonaws.com\/fs.goanimate.com\/', 'st': '', 'uisa': 0,
-					'u_info_school":"OjI6bVFMTXBnN1pPRTdkeHJLamtiT1ZUZ2RoOXhHVmg5N2loU3VLZTJEYlp4WWxqcTY3aHhZbG1DVjJhUldkc2xxNVZWNVgyV2VOeTNVVlpPUWRHbkJlUkNyMTBSM2QyT2kxNmxHc2NsbEVpVXFnZklqMTBsNHVjPQ==',
+					'u_info_school': 'OjI6bVFMTXBnN1pPRTdkeHJLamtiT1ZUZ2RoOXhHVmg5N2loU3VLZTJEYlp4WWxqcTY3aHhZbG1DVjJhUldkc2xxNVZWNVgyV2VOeTNVVlpPUWRHbkJlUkNyMTBSM2QyT2kxNmxHc2NsbEVpVXFnZklqMTBsNHVjPQ==',
 					'tm': 'FIN', 'tray': 'retro', 'uplp': 0, 'isWide': 1,
 				},
 				allowScriptAccess: 'always',
