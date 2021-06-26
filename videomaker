@@ -210,10 +210,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     Great Theme                </div>
 
                 <div class="theme__content__cta hidden-mobile">
-                        <a class="btn btn-orange" href="/videomaker/full/?tray=animal">Select</a>
+                        <a class="btn btn-orange" href="/videomaker/full/?tray=chibi">Select</a>
     
                     <br>
-                        <a class="theme__cc-link" href="/charactercreator/?themeId=animal">
+                        <a class="theme__cc-link" href="/charactercreator/?themeId=chibi">
                         Character Creator                    </a>
                     </div>
             </div>
