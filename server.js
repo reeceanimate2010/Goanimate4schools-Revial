@@ -56,6 +56,7 @@ const functions = [
 	scc,
 	scp,
 	slv,
+	slp,
 	stl,
 ];
 
