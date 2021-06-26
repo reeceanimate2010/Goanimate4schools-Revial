@@ -31,7 +31,7 @@ module.exports = function (req, res, url) {
 			};
 			params = {
 				flashvars: {
-					'apiserver': 'http://localhost/', 'storePath': process.env.STORE_URL + '/<store>',
+					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>',
 					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'original_asset_id': query['id'] || null,
 					'themeId': 'business', 'ut': 60, 'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': 'go',
 					'm_mode': 'school', 'isLogin': 'Y', 'isEmbed': 1, 'ctc': 'go', 'tlang': 'en_US',
@@ -41,15 +41,16 @@ module.exports = function (req, res, url) {
 			};
 			break;
 		}
-case '/character_creator': {
-			title = 'Make a Character - GoAnimate for Schools Remastered';
+
+		case '/character_creator': {
+			title = 'Make a Character - Vyond';
 			attrs = {	
 				data: process.env.SWF_URL + '/cc_browser.swf', // data: 'cc_browser.swf',
 				type: 'application/x-shockwave-flash', id: 'char_creator', width: '100%', height: '100%',
 			};
 			params = {
 				flashvars: {
-					'apiserver': 'http://localhost/', 'storePath': process.env.STORE_URL + '/<store>',
+					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>',
 					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>',
 					'themeId': 'business', 'ut': 60, 'appCode': 'go', 'page': '', 'siteId': 'go',
 					'm_mode': 'school', 'isLogin': 'Y', 'isEmbed': 1, 'ctc': 'go', 'tlang': 'en_US',
@@ -70,7 +71,7 @@ case '/character_creator': {
 			};
 			params = {
 				flashvars: {
-					'apiserver': 'http://localhost/', 'storePath': process.env.STORE_URL + '/<store>', 'isEmbed': 1, 'ctc': 'go',
+					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>', 'isEmbed': 1, 'ctc': 'go',
 					'ut': 60, 'bs': 'default', 'appCode': 'go', 'page': '', 'siteId': 'go', 'lid': 13, 'isLogin': 'Y', 'retut': 1,
 					'clientThemePath': process.env.CLIENT_URL + '/<client_theme>', 'themeId': 'business', 'tlang': 'en_US',
 					'presaveId': presave, 'goteam_draft_only': 1, 'isWide': 1, 'nextUrl': '/dashboard/videos',
@@ -82,14 +83,14 @@ case '/character_creator': {
 		}
 
 	case '/movie': {
-			title = 'Video Player - GoAnimate For Schools Remastered';
+			title = 'Video Player - Vyond';
 		attrs = {
 				data: process.env.SWF_URL + '/player.swf',
 				type: 'application/x-shockwave-flash', width: '100%', height: '100%',
 			};
 			params = {
 				flashvars: {
-					'apiserver': 'http://localhost/', 'storePath': process.env.STORE_URL + '/<store>', 'ut': 60,
+					'apiserver': '/', 'storePath': process.env.STORE_URL + '/<store>', 'ut': 60,
 					'autostart': 0, 'isWide': 1, 'clientThemePath': process.env.CLIENT_URL + '/<client_theme>',
 				},
 				allowScriptAccess: 'always',
@@ -103,7 +104,7 @@ case '/character_creator': {
 	res.setHeader('Content-Type', 'text/html; charset=UTF-8');
 	Object.assign(params.flashvars, query);
 	res.end(
-	`<link rel="stylesheet" href="/html/css/common_combined.css.gz.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700"><link rel="stylesheet" href="/html/css/importer.css.gz.css"><script href="/html/themelist/themelistfiles/common_combined.js.gz.js"></script><script>document.title='${title}',flashvars=${JSON.stringify(
+	`<link rel="stylesheet" href="/html/css/common_combined.css.gz.css"><link rel="stylesheet" href="https://goanimateforschools.github.io/fonts/schoolfont.css"><link rel="stylesheet" href="/html/css/importer.css.gz.css"><script href="/html/themelist/themelistfiles/common_combined.js.gz.js"></script><script>document.title='${title}',flashvars=${JSON.stringify(
 	params.flashvars
 	)}</script><body style="margin:0px">
 	<nav class="navbar site-nav" role="navigation">
@@ -115,17 +116,17 @@ case '/character_creator': {
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-            <a class="navbar-brand" href="/html/list.html" title="GoAnimate for Schools Remastered">
-                <img src="/html/img/logo4s.png" alt="GoAnimate For Schools Remastered">
+            <a class="navbar-brand" href="/html/list.html" title="Vyond">
+                <img src="/html/img/logo4s.png" alt="Vyond">
             </a>
         </div>
 
         <ul class="nav site-nav-alert-nav hidden-xs">
             <li>
-                <a href="/web/20181218221022/http://vyondhoster.000webhostapp.com/messages" title="Messages"><span class="glyphicon glyphicon-envelope"></span><span class="count"></span></a>
+                <a href="/messages" title="Messages"><span class="glyphicon glyphicon-envelope"></span><span class="count"></span></a>
             </li>
             <li>
-                <a href="/web/20181218221022/http://vyondhoster.000webhostapp.com/notifications" title="Notifications"><span class="glyphicon glyphicon-bell"></span><span class="count"></span></a>
+                <a href="/notifications" title="Notifications"><span class="glyphicon glyphicon-bell"></span><span class="count"></span></a>
             </li>
         </ul>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -133,13 +134,13 @@ case '/character_creator': {
                 <li class="dropdown">
                     <a class="dropdown-toggle" href="#" data-toggle="dropdown">Your Account <span class="caret"></span></a>
                     <ul class="dropdown-menu">
-                        <li><a href="/web/20181218221022/http://vyondhoster.000webhostapp.com/student">Dashboard</a></li>
-                        <li><a href="/web/20181218221022/http://vyondhoster.000webhostapp.com/movies">Your Videos</a></li>
+                        <li><a href="/student">Dashboard</a></li>
+                        <li><a href="/movies">Your Videos</a></li>
                         <li class="divider"></li>
-                        <li><a href="/web/20181218221022/http://vyondhoster.000webhostapp.com/account">Account Settings</a></li>
-                        <li><a href="/web/20181218221022/http://vyondhoster.000webhostapp.com/profile/0DyHqK6Yj9dM">Your Profile</a></li>
+                        <li><a href="/account">Account Settings</a></li>
+                        <li><a href="/profile/0DyHqK6Yj9dM">Your Profile</a></li>
                         <li class="divider"></li>
-                        <li><a class="logout-link" href="/web/20181218221022/http://vyondhoster.000webhostapp.com/logoff">Logout</a></li>
+                        <li><a class="logout-link" href="/logoff">Logout</a></li>
                     </ul>
                 </li><li class="dropdown">
                     <a class="dropdown-toggle" href="#" data-toggle="dropdown">Explore <span class="caret"></span></a>
