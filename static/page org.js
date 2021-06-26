@@ -104,7 +104,7 @@ module.exports = function (req, res, url) {
 	res.setHeader('Content-Type', 'text/html; charset=UTF-8');
 	Object.assign(params.flashvars, query);
 	res.end(
-	`<link rel="stylesheet" href="/html/css/common_combined.css.gz.css"><link rel="stylesheet" href="https://goanimateforschools.github.io/fonts/schoolfont.css"><link rel="stylesheet" href="/html/css/importer.css.gz.css"><script href="https://goanimateforschools.github.io/js/common_combined.js.gz.js"></script><script>document.title='${title}',flashvars=${JSON.stringify(
+	`<link rel="stylesheet" href="/html/css/common_combined.css.gz.css"><link rel="stylesheet" href="https://goanimateforschools.github.io/fonts/schoolfont.css"><link rel="stylesheet" href="/html/css/importer.css.gz.css"><script href="/html/js/common_combined.js.gz.js"></script><script>document.title='${title}',flashvars=${JSON.stringify(
 	params.flashvars
 	)}</script><body style="margin:0px">
 	<nav class="navbar site-nav" role="navigation">
