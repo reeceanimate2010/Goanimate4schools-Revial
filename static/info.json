@@ -14,41 +14,6 @@
 			"statusCode": 302,
 			"content": ""
 		},
-		"/videomaker/full/custom/tutorial": {
-			"headers": {
-				"Location": "/studio/tutorial?tray=custom"
-			},
-			"statusCode": 302,
-			"content": ""
-		},
-		"/videomaker/full/chibi/tutorial": {
-			"headers": {
-				"Location": "/studio/tutorial?tray=chibi"
-			},
-			"statusCode": 302,
-			"content": ""
-		},
-		"/videomaker/full/common/tutorial": {
-			"headers": {
-				"Location": "/studio/tutorial?tray=common"
-			},
-			"statusCode": 302,
-			"content": ""
-		},
-		"/videomaker/full/action/tutorial": {
-			"headers": {
-				"Location": "/studio/tutorial?tray=action"
-			},
-			"statusCode": 302,
-			"content": ""
-		},
-		"/videomaker/full/retro/tutorial": {
-			"headers": {
-				"Location": "/studio/tutorial?tray=retro"
-			},
-			"statusCode": 302,
-			"content": ""
-		},
 		"/goapi/getAssetTags": {
 			"headers": {
 				"Content-Type": "application/json"
