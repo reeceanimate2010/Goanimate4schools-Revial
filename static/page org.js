@@ -120,15 +120,6 @@ module.exports = function (req, res, url) {
                 <img src="/html/img/logo4s.png" alt="Vyond">
             </a>
         </div>
-
-        <ul class="nav site-nav-alert-nav hidden-xs">
-            <li>
-                <a href="/messages" title="Messages"><span class="glyphicon glyphicon-envelope"></span><span class="count"></span></a>
-            </li>
-            <li>
-                <a href="/notifications" title="Notifications"><span class="glyphicon glyphicon-bell"></span><span class="count"></span></a>
-            </li>
-        </ul>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown">
