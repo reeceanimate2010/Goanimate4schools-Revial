@@ -15,7 +15,6 @@ const stc = require('./static/pagecc');
 const scc = require('./static/pageccbro');
 const scp = require('./static/page2008');
 const slv = require('./static/pagelvp');
-const slp = require('./static/pagetutorial');
 const asl = require('./asset/load');
 const asL = require('./asset/list');
 const ast = require('./asset/thmb');
@@ -55,7 +54,6 @@ const functions = [
 	stc,
 	scc,
 	scp,
-	slp,
 	slv,
 	stl,
 ];
