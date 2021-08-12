@@ -2,13 +2,13 @@
 	"bg": {
 		"filetypes": [
 			"jpg"
-		]
-	},
+		]       "png"
+	},              "swf"
 	"prop": {
 		"filetypes": [
 			"png",
 			"jpg"
-		]
+		]       "swf"
 	},
 	"sound": {
 		"filetypes": [
